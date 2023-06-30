@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.logo img {
+  width: 80px;
+  background-color: blueviolet;
+
+}
+.intro_bg{
+  background-image: url(images/KakaoTalk_20230630_112715404.jpg);
+  width: 1058px;
+  height: 1411px;
+}
+  
+.header{
+  display: flex;
+  width: 1058px;
+  margin: auto;
+  background: #ccc;
+}
+  
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: calc(1058px - 300px);
+  background: blue;
+}
+  
+.nav > li{
+  margin-left: 80px;
+  background: aqua;
+}
+  
+
+.searchArea {
+  width: 300px;
+  height: 40px;
+  background: green;
+  border-radius: 5px ;
+  margin-top: 40px;
+}
+
+.searchArea > form > input {
+  border: none;
+  width:270px;
+  height: 40px;
+  background:rgba(0, 0, 0, 0);
+  color:#fff;
+}
+  
+
+
+
+  
+
+
+  
+
+
+

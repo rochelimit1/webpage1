@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.center-nav {
+  display: flex;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  min-width: 300px;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+}
+
+.search button {
+  border: none;
+  padding: 10px;
+}
+
+.mic {
+  padding: 15px;
+  border-radius: 50%;
+  background: #eee;
+  margin-left: 20px;
+}
+
+.mic img {
+  width: 25px;
+}
+
+.side-nav {
+  display: flex;
+  padding: 20px;
+  gap: 15px;
+}
+
+.side-nav img {
+  width: 40px;
+}
+
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.tag {
+  padding: 10px;
+  border: 1px solid #333;
+  list-style: none;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.side-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-icon img {
+  width: 35px;
+}
+
+.side-icon p {
+  width: 35px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.main-container {
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: #eee */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border: solid 1px black; */
+}
+.card img {
+  max-width: 320px;
+  padding: 10px;
+}
+
+.avatar {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.channel-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.content-status {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.avatar-container {
+  display: flex;
+  width: 320px;
+}
+
+.content h3 {
+  font-size: 15px;
+}
